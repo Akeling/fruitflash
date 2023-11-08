@@ -20,5 +20,5 @@ def get_html(url):
     return json_dict
 
 if __name__ == '__main__':
-    url = ;
-    get_html(url);
+    # url = ;
+    # get_html(url);
