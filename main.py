@@ -67,9 +67,10 @@ def get_images_from_baidu(keyword, page_num, save_dir):
 
 
 if __name__ == "__main__":
-    keyword = '坏掉的香蕉'
+    # 关键词搜索
+    keyword = '新鲜的水果'
     # 修改爬取的页数
-    page_num = 1
+    page_num = 3
     page_num = int(page_num)
     save_dir = '.\\图片\\' + keyword
     get_images_from_baidu(keyword, page_num, save_dir)
